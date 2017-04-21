@@ -1,11 +1,11 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'app-my-post',
+  selector: 'mypost',
    templateUrl: './app.component.html',
   template: `
     <div *ngFor="let post of posts | mypipe:pipeargs">
-<mypost [data]="post"></mypost>
+
 </div>`,
 
   
